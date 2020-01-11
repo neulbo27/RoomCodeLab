@@ -6,6 +6,9 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
+import pe.hankyu.roomwordsample.viewmodel.WordViewModel
 
 class NewWordActivity : AppCompatActivity() {
 
